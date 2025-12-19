@@ -1,0 +1,13 @@
+.trending-section {
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.trending-label {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #111;
+  transition: transform 0.3s ease;
+}

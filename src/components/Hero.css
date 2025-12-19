@@ -1,0 +1,56 @@
+.hero-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Running Text Behind Carousel */
+.running-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.50); /* subtle tone */
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Ensure Carousel is above the text */
+.carousel,
+.carousel-item,
+.carousel-caption {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .running-text {
+    font-size: 3rem;
+    top: 30%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .running-text {
+    font-size: 3rem;
+    top: 30%;
+  }
+}
+
+/* .running-text {
+  color: red;
+  z-index: 999;
+} */
+
+

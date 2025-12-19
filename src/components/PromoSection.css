@@ -1,0 +1,14 @@
+.promo-section {
+  background-color: #fff;
+}
+
+.shop-btn {
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
+.promoImage{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
