@@ -20,12 +20,12 @@ const products = [
     category: "shirts",
     price: 2999,
     images: [
-      "https://i.pinimg.com/1200x/5f/9a/29/5f9a29315b44a0abfd6f463cf990ab57.jpg",
-      "/images/Formals/outfit-10-alt1.webp",
-      "/images/Formals/outfit-10-alt2.webp",
-      "/images/Formals/outfit-10-alt3.webp"
+      "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/96ccfe535c25bea74286e6cf14951303.jpg?v=1734528400&quality=80",
+      "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4f750f85290ddce44ff74af0980d53cb.jpg?v=1734528400&quality=80",
+      "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/c075c96d2f75d44a433441d4dd6aa210.jpg?v=1734528400&quality=80",
+      "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/de8e7f740d72a9d63727372f62674aef.jpg?v=1734528400&quality=80"
     ],
-    hoverImage: "/images/Formals/outfit-10-alt3.webp",
+    hoverImage: "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4f750f85290ddce44ff74af0980d53cb.jpg?v=1734528400&quality=80",
     description: "Minimal white shirt with premium cotton."
   },
   {
