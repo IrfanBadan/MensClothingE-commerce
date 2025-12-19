@@ -2,22 +2,27 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './NewArrivalsSection.css';
 
+import baggyImg from '../assets/images/Whats New/baggy.jpg';
+import oversizedImg from '../assets/images/Whats New/oversized-tees.jpg';
+import floralImg from '../assets/images/Whats New/floralSShirt.jpg';
+import leninImg from '../assets/images/Whats New/LeninPants.jpg';
+
 const newArrivals = [
   {
     title: 'Plain Baggy Jeans',
-    image: '/images/Whats New/baggy.jpg'
+    image: baggyImg
   },
   {
     title: 'Prited & plain OverSized Tees',
-    image: '/images/Whats New/oversized-tees.jpg'
+    image: oversizedImg
   },
   {
     title: 'Floral Shirt Free Sized',
-    image: '/images/Whats New/floralSShirt.jpg'
+    image: floralImg
   },
   {
     title: 'Lenin pants for Comfort',
-    image: '/images/Whats New/LeninPants.jpg'
+    image: leninImg
   }
 ];
 
