@@ -21,11 +21,11 @@ const products = [
     price: 2999,
     images: [
       "https://i.pinimg.com/1200x/5f/9a/29/5f9a29315b44a0abfd6f463cf990ab57.jpg",
-      "/src/assets/images/Formals/outfit-10-alt1.webp",
-      "/src/assets/images/Formals/outfit-10-alt2.webp",
-      "/src/assets/images/Formals/outfit-10-alt3.webp"
+      "/images/Formals/outfit-10-alt1.webp",
+      "/images/Formals/outfit-10-alt2.webp",
+      "/images/Formals/outfit-10-alt3.webp"
     ],
-    hoverImage: "/src/assets/images/Formals/outfit-10-alt3.webp",
+    hoverImage: "/images/Formals/outfit-10-alt3.webp",
     description: "Minimal white shirt with premium cotton."
   },
   {

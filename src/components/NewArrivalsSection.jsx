@@ -5,19 +5,19 @@ import './NewArrivalsSection.css';
 const newArrivals = [
   {
     title: 'Plain Baggy Jeans',
-    image: '/src/assets/images/Whats New/baggy.jpg'
+    image: '/images/Whats New/baggy.jpg'
   },
   {
     title: 'Prited & plain OverSized Tees',
-    image: '/src/assets/images/Whats New/oversized-tees.jpg'
+    image: '/images/Whats New/oversized-tees.jpg'
   },
   {
     title: 'Floral Shirt Free Sized',
-    image: '/src/assets/images/Whats New/floralSShirt.jpg'
+    image: '/images/Whats New/floralSShirt.jpg'
   },
   {
     title: 'Lenin pants for Comfort',
-    image: '/src/assets/images/Whats New/LeninPants.jpg'
+    image: '/images/Whats New/LeninPants.jpg'
   }
 ];
 

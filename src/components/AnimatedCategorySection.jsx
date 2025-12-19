@@ -3,18 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import './AnimatedCategorySection.css';
 import gsap from 'gsap';
 
-import shirtVideo from '../assets/images/catagorySection/gif-2.mp4';
-import pantVideo from '../assets/images/catagorySection/Hailuo_Video_A premium formal pant floating_457397997760323591.mp4';
-import tshirtVideo from '../assets/images/catagorySection/Hailuo_Video_A premium oversized t-shirt fl_457412980929908738.mp4';
-import shoesGif from '../assets/images/catagorySection/g-1111.gif';
-import accessoriesVideo from '../assets/images/catagorySection/Hailuo_Video_A premium accessories category_457416579831496711.mp4';
-
 const categories = [
-  { label: 'Shirts', media: shirtVideo },
-  { label: 'Pants', media: pantVideo },
-  { label: 'T-Shirts', media: tshirtVideo },
-  { label: 'Shoes', media: shoesGif },
-  { label: 'Accessories', media: accessoriesVideo }
+  { label: 'Shirts', media: '/images/catagorySection/gif-2.mp4' },
+  { label: 'Pants', media: '/images/catagorySection/Hailuo_Video_A premium formal pant floating_457397997760323591.mp4' },
+  { label: 'T-Shirts', media: '/images/catagorySection/Hailuo_Video_A premium oversized t-shirt fl_457412980929908738.mp4' },
+  { label: 'Shoes', media: '/images/catagorySection/g-1111.gif' },
+  { label: 'Accessories', media: '/images/catagorySection/Hailuo_Video_A premium accessories category_457416579831496711.mp4' }
 ];
 
 function AnimatedCategorySection() {

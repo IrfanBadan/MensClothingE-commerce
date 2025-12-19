@@ -6,7 +6,7 @@ function PromoSection() {
   const navigate = useNavigate();
   return (
     <section className="promo-section container text-center ">
-      <img src="/src/assets/images/banner10.jpg" alt="Tee Banner" className="img-fluid mb-4 promoImage" />
+      <img src="/images/banner10.jpg" alt="Tee Banner" className="img-fluid mb-4 promoImage" />
       <h2 className="fw-bold">Tee Up Your Style</h2>
       <p className="text-muted">
         Life is too short for boring tees.
